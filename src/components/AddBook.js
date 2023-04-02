@@ -53,8 +53,8 @@ const handleSubmit = (e) => {
   > 
   <FormLabel> Name </FormLabel>
   <TextField 
-  value={inputs.name}
-  onChange={handleChange}
+   value={inputs.name}
+  onChange={handleChange}  
   margin='normal' fullWidth variant='outlined' name='name'/> 
   <FormLabel> Author </FormLabel>
   <TextField 
@@ -74,11 +74,14 @@ const handleSubmit = (e) => {
    value={inputs.price}
   onChange={handleChange}
   type="number" margin='normal' fullWidth variant='outlined' name='price'/> 
+
   <FormLabel> Image </FormLabel>
   <TextField 
+   helperText="Please enter the url of image"
    value={inputs.image}
   onChange={handleChange}
   margin='normal' fullWidth variant='outlined' name='image'/> 
+  
   <FormControlLabel 
   control={<Checkbox checked={checked} onChange={()=> setChecked(!checked)} />} 
   label="Available" />
