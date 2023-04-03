@@ -23,7 +23,7 @@ How do I add the favorites books and update them through MEDTECH Book Shelf ? </
 <p> Enter the required information that has been asked.</p>
 <p>Once you click the button can see your favorite book at the bottom of the<a href= "http://localhost:3000/books" > list.</a> </p>
 <p>Enjoy with the list and share with your loved ones. </p>
-<p color="#2A4E6B"> The Best :) </p>
+<p color="#2A4E6B"> The Best... </p>
 
 </p>
  </div>   
